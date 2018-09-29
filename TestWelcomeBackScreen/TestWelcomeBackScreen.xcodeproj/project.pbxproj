@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EEB2C50215E385D00D17A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C4F215E385D00D17A4C /* AppDelegate.swift */; };
+		2EEB2C55215E385D00D17A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C53215E385D00D17A4C /* Main.storyboard */; };
+		2EEB2C57215E385E00D17A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C56215E385E00D17A4C /* Assets.xcassets */; };
+		2EEB2C5A215E385E00D17A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C58215E385E00D17A4C /* LaunchScreen.storyboard */; };
+		2EEB2C62215E389500D17A4C /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C61215E389500D17A4C /* LoginTableViewController.swift */; };
+		2EEB2C65215E38C200D17A4C /* LablesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C63215E38C200D17A4C /* LablesTableViewCell.swift */; };
+		2EEB2C66215E38C200D17A4C /* LablesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C64215E38C200D17A4C /* LablesTableViewCell.xib */; };
+		2EEB2C68215E3A4800D17A4C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C67215E3A4800D17A4C /* Colors.swift */; };
+		2EEB2C6C215E3C5C00D17A4C /* FbButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C6A215E3C5C00D17A4C /* FbButtonTableViewCell.swift */; };
+		2EEB2C6D215E3C5C00D17A4C /* FbButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C6B215E3C5C00D17A4C /* FbButtonTableViewCell.xib */; };
+		2EEB2C6F215E49D500D17A4C /* CustomFbButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C6E215E49D500D17A4C /* CustomFbButton.swift */; };
+		2EEB2C72215E7AC800D17A4C /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C70215E7AC800D17A4C /* TextFieldTableViewCell.swift */; };
+		2EEB2C73215E7AC800D17A4C /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C71215E7AC800D17A4C /* TextFieldTableViewCell.xib */; };
+		2EEB2C7C215EAC6100D17A4C /* ForgottenPassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C7A215EAC6100D17A4C /* ForgottenPassTableViewCell.swift */; };
+		2EEB2C7D215EAC6100D17A4C /* ForgottenPassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C7B215EAC6100D17A4C /* ForgottenPassTableViewCell.xib */; };
+		2EEB2C7F215EBA9400D17A4C /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C7E215EBA9400D17A4C /* DesignableButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EEB2C4C215E385D00D17A4C /* TestWelcomeBackScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWelcomeBackScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEB2C4F215E385D00D17A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EEB2C54215E385D00D17A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EEB2C56215E385E00D17A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EEB2C59215E385E00D17A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EEB2C5B215E385E00D17A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEB2C61215E389500D17A4C /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		2EEB2C63215E38C200D17A4C /* LablesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LablesTableViewCell.swift; sourceTree = "<group>"; };
+		2EEB2C64215E38C200D17A4C /* LablesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LablesTableViewCell.xib; sourceTree = "<group>"; };
+		2EEB2C67215E3A4800D17A4C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2EEB2C6A215E3C5C00D17A4C /* FbButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FbButtonTableViewCell.swift; sourceTree = "<group>"; };
+		2EEB2C6B215E3C5C00D17A4C /* FbButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FbButtonTableViewCell.xib; sourceTree = "<group>"; };
+		2EEB2C6E215E49D500D17A4C /* CustomFbButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFbButton.swift; sourceTree = "<group>"; };
+		2EEB2C70215E7AC800D17A4C /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		2EEB2C71215E7AC800D17A4C /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		2EEB2C7A215EAC6100D17A4C /* ForgottenPassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPassTableViewCell.swift; sourceTree = "<group>"; };
+		2EEB2C7B215EAC6100D17A4C /* ForgottenPassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgottenPassTableViewCell.xib; sourceTree = "<group>"; };
+		2EEB2C7E215EBA9400D17A4C /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EEB2C49215E385D00D17A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7ED46C215FFD0B00BF3910 /* Disignable */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C67215E3A4800D17A4C /* Colors.swift */,
+				2EEB2C7E215EBA9400D17A4C /* DesignableButton.swift */,
+			);
+			path = Disignable;
+			sourceTree = "<group>";
+		};
+		2EEB2C43215E385D00D17A4C = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C4E215E385D00D17A4C /* TestWelcomeBackScreen */,
+				2EEB2C4D215E385D00D17A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EEB2C4D215E385D00D17A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C4C215E385D00D17A4C /* TestWelcomeBackScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EEB2C4E215E385D00D17A4C /* TestWelcomeBackScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C4F215E385D00D17A4C /* AppDelegate.swift */,
+				2EEB2C61215E389500D17A4C /* LoginTableViewController.swift */,
+				2EEB2C53215E385D00D17A4C /* Main.storyboard */,
+				2EEB2C56215E385E00D17A4C /* Assets.xcassets */,
+				2EEB2C58215E385E00D17A4C /* LaunchScreen.storyboard */,
+				2EEB2C5B215E385E00D17A4C /* Info.plist */,
+				2E7ED46C215FFD0B00BF3910 /* Disignable */,
+				2EEB2C69215E3BBC00D17A4C /* Cells */,
+			);
+			path = TestWelcomeBackScreen;
+			sourceTree = "<group>";
+		};
+		2EEB2C69215E3BBC00D17A4C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C76215E8A5300D17A4C /* LablesTableViewCells */,
+				2EEB2C77215E8A6D00D17A4C /* FbCustomButtonCell */,
+				2EEB2C78215E8A8600D17A4C /* TextFieldsCells */,
+				2EEB2C79215EAC2600D17A4C /* ForgottenPassButtonCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2EEB2C76215E8A5300D17A4C /* LablesTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C63215E38C200D17A4C /* LablesTableViewCell.swift */,
+				2EEB2C64215E38C200D17A4C /* LablesTableViewCell.xib */,
+			);
+			path = LablesTableViewCells;
+			sourceTree = "<group>";
+		};
+		2EEB2C77215E8A6D00D17A4C /* FbCustomButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C6A215E3C5C00D17A4C /* FbButtonTableViewCell.swift */,
+				2EEB2C6B215E3C5C00D17A4C /* FbButtonTableViewCell.xib */,
+				2EEB2C6E215E49D500D17A4C /* CustomFbButton.swift */,
+			);
+			path = FbCustomButtonCell;
+			sourceTree = "<group>";
+		};
+		2EEB2C78215E8A8600D17A4C /* TextFieldsCells */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C70215E7AC800D17A4C /* TextFieldTableViewCell.swift */,
+				2EEB2C71215E7AC800D17A4C /* TextFieldTableViewCell.xib */,
+			);
+			path = TextFieldsCells;
+			sourceTree = "<group>";
+		};
+		2EEB2C79215EAC2600D17A4C /* ForgottenPassButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C7A215EAC6100D17A4C /* ForgottenPassTableViewCell.swift */,
+				2EEB2C7B215EAC6100D17A4C /* ForgottenPassTableViewCell.xib */,
+			);
+			path = ForgottenPassButtonCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EEB2C4B215E385D00D17A4C /* TestWelcomeBackScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEB2C5E215E385E00D17A4C /* Build configuration list for PBXNativeTarget "TestWelcomeBackScreen" */;
+			buildPhases = (
+				2EEB2C48215E385D00D17A4C /* Sources */,
+				2EEB2C49215E385D00D17A4C /* Frameworks */,
+				2EEB2C4A215E385D00D17A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWelcomeBackScreen;
+			productName = TestWelcomeBackScreen;
+			productReference = 2EEB2C4C215E385D00D17A4C /* TestWelcomeBackScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EEB2C44215E385D00D17A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Zimma;
+				TargetAttributes = {
+					2EEB2C4B215E385D00D17A4C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2EEB2C47215E385D00D17A4C /* Build configuration list for PBXProject "TestWelcomeBackScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EEB2C43215E385D00D17A4C;
+			productRefGroup = 2EEB2C4D215E385D00D17A4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EEB2C4B215E385D00D17A4C /* TestWelcomeBackScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EEB2C4A215E385D00D17A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEB2C5A215E385E00D17A4C /* LaunchScreen.storyboard in Resources */,
+				2EEB2C73215E7AC800D17A4C /* TextFieldTableViewCell.xib in Resources */,
+				2EEB2C57215E385E00D17A4C /* Assets.xcassets in Resources */,
+				2EEB2C66215E38C200D17A4C /* LablesTableViewCell.xib in Resources */,
+				2EEB2C55215E385D00D17A4C /* Main.storyboard in Resources */,
+				2EEB2C7D215EAC6100D17A4C /* ForgottenPassTableViewCell.xib in Resources */,
+				2EEB2C6D215E3C5C00D17A4C /* FbButtonTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EEB2C48215E385D00D17A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEB2C6F215E49D500D17A4C /* CustomFbButton.swift in Sources */,
+				2EEB2C65215E38C200D17A4C /* LablesTableViewCell.swift in Sources */,
+				2EEB2C72215E7AC800D17A4C /* TextFieldTableViewCell.swift in Sources */,
+				2EEB2C7F215EBA9400D17A4C /* DesignableButton.swift in Sources */,
+				2EEB2C68215E3A4800D17A4C /* Colors.swift in Sources */,
+				2EEB2C7C215EAC6100D17A4C /* ForgottenPassTableViewCell.swift in Sources */,
+				2EEB2C6C215E3C5C00D17A4C /* FbButtonTableViewCell.swift in Sources */,
+				2EEB2C50215E385D00D17A4C /* AppDelegate.swift in Sources */,
+				2EEB2C62215E389500D17A4C /* LoginTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EEB2C53215E385D00D17A4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEB2C54215E385D00D17A4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EEB2C58215E385E00D17A4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EEB2C59215E385E00D17A4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EEB2C5C215E385E00D17A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EEB2C5D215E385E00D17A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EEB2C5F215E385E00D17A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5A8T32G26;
+				INFOPLIST_FILE = TestWelcomeBackScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zimma.TestWelcomeBackScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EEB2C60215E385E00D17A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5A8T32G26;
+				INFOPLIST_FILE = TestWelcomeBackScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zimma.TestWelcomeBackScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EEB2C47215E385D00D17A4C /* Build configuration list for PBXProject "TestWelcomeBackScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEB2C5C215E385E00D17A4C /* Debug */,
+				2EEB2C5D215E385E00D17A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEB2C5E215E385E00D17A4C /* Build configuration list for PBXNativeTarget "TestWelcomeBackScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEB2C5F215E385E00D17A4C /* Debug */,
+				2EEB2C60215E385E00D17A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EEB2C44215E385D00D17A4C /* Project object */;
+}
