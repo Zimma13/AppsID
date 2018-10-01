@@ -23,6 +23,7 @@
 		2EEB2C7C215EAC6100D17A4C /* ForgottenPassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C7A215EAC6100D17A4C /* ForgottenPassTableViewCell.swift */; };
 		2EEB2C7D215EAC6100D17A4C /* ForgottenPassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C7B215EAC6100D17A4C /* ForgottenPassTableViewCell.xib */; };
 		2EEB2C7F215EBA9400D17A4C /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C7E215EBA9400D17A4C /* DesignableButton.swift */; };
+		2EECE17F216215D000AC815D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE17E216215D000AC815D /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2EEB2C7A215EAC6100D17A4C /* ForgottenPassTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPassTableViewCell.swift; sourceTree = "<group>"; };
 		2EEB2C7B215EAC6100D17A4C /* ForgottenPassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgottenPassTableViewCell.xib; sourceTree = "<group>"; };
 		2EEB2C7E215EBA9400D17A4C /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		2EECE17E216215D000AC815D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				2EEB2C70215E7AC800D17A4C /* TextFieldTableViewCell.swift */,
 				2EEB2C71215E7AC800D17A4C /* TextFieldTableViewCell.xib */,
+				2EECE17E216215D000AC815D /* CustomTextField.swift */,
 			);
 			path = TextFieldsCells;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				2EEB2C65215E38C200D17A4C /* LablesTableViewCell.swift in Sources */,
 				2EEB2C72215E7AC800D17A4C /* TextFieldTableViewCell.swift in Sources */,
 				2EEB2C7F215EBA9400D17A4C /* DesignableButton.swift in Sources */,
+				2EECE17F216215D000AC815D /* CustomTextField.swift in Sources */,
 				2EEB2C68215E3A4800D17A4C /* Colors.swift in Sources */,
 				2EEB2C7C215EAC6100D17A4C /* ForgottenPassTableViewCell.swift in Sources */,
 				2EEB2C6C215E3C5C00D17A4C /* FbButtonTableViewCell.swift in Sources */,

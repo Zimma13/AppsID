@@ -45,6 +45,7 @@ class LoginTableViewController: UITableViewController {
         } else if indexPath.row == 3 {
             let cell = Bundle.main.loadNibNamed("TextFieldTableViewCell", owner: self, options: nil)?.first as! TextFieldTableViewCell
             
+            
             cell.textFieldChenge(textFieldParam: .email)
             cell.textFieldChenged = { text in
                 print(text)

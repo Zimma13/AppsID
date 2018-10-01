@@ -10,7 +10,13 @@ import UIKit
 
 class TextFieldTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var textField: UITextField!
+    //Choice TextField
+    enum textFieldKeys: String {
+        case email = "Email"
+        case pass = "Password"
+    }
+    
+    @IBOutlet weak var textField: CustomTextField!
     
     var textFieldChenged: ((String) -> Void)?
     
@@ -19,52 +25,12 @@ class TextFieldTableViewCell: UITableViewCell {
         
         contentView.backgroundColor = Colors.bgColor
         
-        textField.layer.cornerRadius = frame.height / 15
-        textField.layer.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        
     }
     
-    //Choice TextField
-    enum textFieldEmailOrPassword: String {
-        case email = "Email"
-        case pass = "Password"
-    }
-    
-    //Choice TextField func
-    func textFieldChenge(textFieldParam: textFieldEmailOrPassword) {
+    func textFieldChenge(textFieldParam: textFieldKeys) {
         textField.placeholder = textFieldParam.rawValue
-        addLeftImageTo(textField: textField, andImage: UIImage(named: textFieldParam.rawValue)!)
-    }
-    
-    // add image to TextFields
-    func addLeftImageTo(textField: UITextField, andImage img: UIImage) {
+        textField.addLeftImage(image: UIImage(named: textFieldParam.rawValue)!)
         
-        let viewSize = textField.frame.height
-
-        //backgroundColorView
-        let subView = UIView()
-        let subViewSize = viewSize - 5
-        subView.frame.size = CGSize(width: subViewSize, height: subViewSize)
-        subView.layer.cornerRadius = subView.frame.width / 15
-        subView.backgroundColor = Colors.bgColor
-        
-        //ImageView
-        let leftImageView = UIImageView(image: img)
-        leftImageView.image = img
-        leftImageView.contentMode = .scaleAspectFit
-        leftImageView.frame.size = CGSize(width: subViewSize / 1.9, height: subViewSize / 1.9)
-        leftImageView.center = subView.center
-        
-        //View
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: viewSize + 10, height: viewSize))
-        view.backgroundColor = UIColor.clear
-        
-        subView.center = view.center
-        subView.addSubview(leftImageView)
-        view.addSubview(subView)
-        
-        textField.leftView = view
-        textField.leftViewMode = .always
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

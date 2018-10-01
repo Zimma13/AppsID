@@ -12,15 +12,14 @@ class LablesTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lable: UILabel!
     
+    enum lables: String {
+        case welcomeLbl = "Welcome Back!"
+        case orLbl = "--- OR ---"
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         contentView.backgroundColor = Colors.bgColor
-    }
-    
-    enum lables: String {
-        case welcomeLbl = "Welcome Back!"
-        case orLbl = "--- OR ---"
     }
     
     func lableChenge(lbl: lables) {
