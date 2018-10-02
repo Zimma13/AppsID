@@ -14,7 +14,9 @@ class FbButtonTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         contentView.backgroundColor = Colors.bgColor
+        
     }
     
 }

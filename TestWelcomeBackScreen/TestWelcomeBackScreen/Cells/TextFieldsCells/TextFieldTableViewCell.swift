@@ -8,13 +8,9 @@
 
 import UIKit
 
+
+
 class TextFieldTableViewCell: UITableViewCell {
-    
-    //Choice TextField
-    enum textFieldKeys: String {
-        case email = "Email"
-        case pass = "Password"
-    }
     
     @IBOutlet weak var textField: CustomTextField!
     
@@ -27,16 +23,21 @@ class TextFieldTableViewCell: UITableViewCell {
         
     }
     
-    func textFieldChenge(textFieldParam: textFieldKeys) {
+    func textFieldChenge(textFieldParam: textFieldLeftImageKey) {
+        
         textField.placeholder = textFieldParam.rawValue
         textField.addLeftImage(image: UIImage(named: textFieldParam.rawValue)!)
         
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
         if touches.first != nil {
+            
             contentView.endEditing(true)
+            
         }
+        
         super.touchesBegan(touches, with: event)
     }
 }

@@ -29,23 +29,25 @@ class LoginTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         if indexPath.row == 0 {
+            
             let cell = Bundle.main.loadNibNamed("LablesTableViewCell", owner: self, options: nil)?.first as! LablesTableViewCell
             cell.lableChenge(lbl: .welcomeLbl)
             return cell
             
         } else if indexPath.row == 1 {
+            
             let cell = Bundle.main.loadNibNamed("FbButtonTableViewCell", owner: self, options: nil)?.first as! FbButtonTableViewCell
             return cell
             
         } else if indexPath.row == 2 {
+            
             let cell = Bundle.main.loadNibNamed("LablesTableViewCell", owner: self, options: nil)?.first as! LablesTableViewCell
             cell.lableChenge(lbl: .orLbl)
             return cell
             
         } else if indexPath.row == 3 {
+            
             let cell = Bundle.main.loadNibNamed("TextFieldTableViewCell", owner: self, options: nil)?.first as! TextFieldTableViewCell
-            
-            
             cell.textFieldChenge(textFieldParam: .email)
             cell.textFieldChenged = { text in
                 print(text)
@@ -53,8 +55,8 @@ class LoginTableViewController: UITableViewController {
             return cell
             
         } else if indexPath.row == 4 {
-            let cell = Bundle.main.loadNibNamed("TextFieldTableViewCell", owner: self, options: nil)?.first as! TextFieldTableViewCell
             
+            let cell = Bundle.main.loadNibNamed("TextFieldTableViewCell", owner: self, options: nil)?.first as! TextFieldTableViewCell
             cell.textFieldChenge(textFieldParam: .pass)
             cell.textFieldChenged = { text in
                 print(text)
@@ -62,9 +64,10 @@ class LoginTableViewController: UITableViewController {
             return cell
             
         } else {
-            let cell = Bundle.main.loadNibNamed("ForgottenPassTableViewCell", owner: self, options: nil)?.first as! ForgottenPassTableViewCell
             
+            let cell = Bundle.main.loadNibNamed("ForgottenPassTableViewCell", owner: self, options: nil)?.first as! ForgottenPassTableViewCell
             return cell
+            
         }
         
     }
@@ -74,9 +77,13 @@ class LoginTableViewController: UITableViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
         if touches.first != nil {
+            
             view.endEditing(true)
+            
         }
+        
         super.touchesBegan(touches, with: event)
     }
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ED74B2721640C2500B6241F /* ModelConfiguratorImageInTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED74B2621640C2500B6241F /* ModelConfiguratorImageInTextFields.swift */; };
 		2EEB2C50215E385D00D17A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB2C4F215E385D00D17A4C /* AppDelegate.swift */; };
 		2EEB2C55215E385D00D17A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C53215E385D00D17A4C /* Main.storyboard */; };
 		2EEB2C57215E385E00D17A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEB2C56215E385E00D17A4C /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ED74B2621640C2500B6241F /* ModelConfiguratorImageInTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConfiguratorImageInTextFields.swift; sourceTree = "<group>"; };
 		2EEB2C4C215E385D00D17A4C /* TestWelcomeBackScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWelcomeBackScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EEB2C4F215E385D00D17A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EEB2C54215E385D00D17A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,22 @@
 			path = Disignable;
 			sourceTree = "<group>";
 		};
+		2ED74B2821640C8300B6241F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2ED74B2621640C2500B6241F /* ModelConfiguratorImageInTextFields.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2ED74B2921640CEF00B6241F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB2C61215E389500D17A4C /* LoginTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2EEB2C43215E385D00D17A4C = {
 			isa = PBXGroup;
 			children = (
@@ -88,11 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				2EEB2C4F215E385D00D17A4C /* AppDelegate.swift */,
-				2EEB2C61215E389500D17A4C /* LoginTableViewController.swift */,
 				2EEB2C53215E385D00D17A4C /* Main.storyboard */,
 				2EEB2C56215E385E00D17A4C /* Assets.xcassets */,
 				2EEB2C58215E385E00D17A4C /* LaunchScreen.storyboard */,
 				2EEB2C5B215E385E00D17A4C /* Info.plist */,
+				2ED74B2821640C8300B6241F /* Models */,
+				2ED74B2921640CEF00B6241F /* View */,
 				2E7ED46C215FFD0B00BF3910 /* Disignable */,
 				2EEB2C69215E3BBC00D17A4C /* Cells */,
 			);
@@ -229,6 +248,7 @@
 				2EEB2C7F215EBA9400D17A4C /* DesignableButton.swift in Sources */,
 				2EECE17F216215D000AC815D /* CustomTextField.swift in Sources */,
 				2EEB2C68215E3A4800D17A4C /* Colors.swift in Sources */,
+				2ED74B2721640C2500B6241F /* ModelConfiguratorImageInTextFields.swift in Sources */,
 				2EEB2C7C215EAC6100D17A4C /* ForgottenPassTableViewCell.swift in Sources */,
 				2EEB2C6C215E3C5C00D17A4C /* FbButtonTableViewCell.swift in Sources */,
 				2EEB2C50215E385D00D17A4C /* AppDelegate.swift in Sources */,
